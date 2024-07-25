@@ -14,7 +14,6 @@ print(df.head())
 
 # In[2]:
 
-
 # Bar chart for Gender Distribution
 gender_counts = df['Gender'].value_counts()
 plt.figure(figsize=(6, 5))
@@ -27,7 +26,6 @@ plt.show()
 
 # In[3]:
 
-
 # Histogram for Age Distribution
 plt.figure(figsize=(10, 6))
 plt.hist(df['Age'], bins=20, edgecolor='black')
@@ -36,10 +34,4 @@ plt.xlabel('Age')
 plt.ylabel('Frequency')
 plt.grid(axis='y', alpha=0.75)
 plt.show()
-
-
-# In[ ]:
-
-
-
 
